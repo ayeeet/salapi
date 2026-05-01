@@ -2,6 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   // indicators are hidden via globals.css
+  distDir: 'dist',
   typescript: {
     // !! WARN !!
     // Dangerously allow production builds to successfully complete even if
