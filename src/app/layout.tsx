@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import AppHeader from "@/components/AppHeader";
+import AppSidebar from "@/components/AppSidebar";
 import { auth } from "@/lib/auth";
 
 export const metadata: Metadata = {
@@ -17,11 +17,19 @@ export default async function RootLayout({
 
   return (
     <html lang="en" className="h-full antialiased">
-      <body className="min-h-full flex flex-col bg-slate-50">
-        {session && <AppHeader user={session.user} />}
-        <div className="flex-1">
-          {children}
-        </div>
+      <body className="min-h-full bg-slate-50 text-slate-900">
+        {session ? (
+          <div className="flex flex-col lg:flex-row min-h-screen">
+            <AppSidebar user={session.user} />
+            <main className="flex-1 lg:ml-64 pb-20 lg:pb-0">
+              {children}
+            </main>
+          </div>
+        ) : (
+          <div className="min-h-screen">
+            {children}
+          </div>
+        )}
       </body>
     </html>
   );
