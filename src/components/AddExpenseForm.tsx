@@ -57,7 +57,7 @@ export default function AddExpenseForm({ action }: { action: (data: FormData) =>
             <label className="text-[10px] font-bold text-slate-500 uppercase px-1 tracking-wider">Category</label>
             <select
               name="category"
-              className="w-full px-4 py-2.5 border border-slate-200 rounded-xl focus:ring-4 focus:ring-emerald-500/10 focus:border-emerald-500 outline-none bg-white transition-all text-sm font-medium text-slate-700"
+              className="w-full px-4 py-2.5 border border-slate-200 rounded-xl focus:ring-4 focus:ring-emerald-500/10 focus:border-emerald-500 outline-none bg-white transition-all text-sm font-bold text-slate-900"
               defaultValue="food"
             >
               {CATEGORIES.map(cat => (
@@ -72,7 +72,7 @@ export default function AddExpenseForm({ action }: { action: (data: FormData) =>
               name="date"
               required
               defaultValue={new Date().toISOString().split('T')[0]}
-              className="w-full px-4 py-2.5 border border-slate-200 rounded-xl focus:ring-4 focus:ring-emerald-500/10 focus:border-emerald-500 outline-none transition-all text-sm font-medium text-slate-700"
+              className="w-full px-4 py-2.5 border border-slate-200 rounded-xl focus:ring-4 focus:ring-emerald-500/10 focus:border-emerald-500 outline-none transition-all text-sm font-bold text-slate-900"
             />
           </div>
         </div>
@@ -82,7 +82,7 @@ export default function AddExpenseForm({ action }: { action: (data: FormData) =>
           <input
             type="text"
             name="note"
-            className="w-full px-4 py-2.5 border border-slate-200 rounded-xl focus:ring-4 focus:ring-emerald-500/10 focus:border-emerald-500 outline-none transition-all text-sm font-medium text-slate-700 placeholder:text-slate-400"
+            className="w-full px-4 py-2.5 border border-slate-200 rounded-xl focus:ring-4 focus:ring-emerald-500/10 focus:border-emerald-500 outline-none transition-all text-sm font-bold text-slate-900 placeholder:text-slate-400"
             placeholder="What was this for?"
           />
         </div>

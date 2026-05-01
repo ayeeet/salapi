@@ -25,7 +25,7 @@ export default function AddInvestmentForm({
 
   return (
     <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
-      <h2 className="text-lg font-bold text-gray-800 mb-4 flex items-center gap-2">
+      <h2 className="text-lg font-bold text-slate-900 mb-4 flex items-center gap-2">
         <TrendingUp className="w-5 h-5 text-emerald-500" />
         Add Investment
       </h2>
@@ -36,7 +36,7 @@ export default function AddInvestmentForm({
           <select
             name="type"
             defaultValue="stocks"
-            className="w-full px-4 py-2 border border-gray-200 rounded-xl focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none bg-white"
+            className="w-full px-4 py-2 border border-slate-200 rounded-xl focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none bg-white text-slate-900 font-bold"
           >
             {INVESTMENT_TYPES.map((type) => (
               <option key={type} value={type}>
@@ -52,7 +52,7 @@ export default function AddInvestmentForm({
             name="amount"
             step="0.01"
             required
-            className="w-full px-4 py-3 text-lg font-semibold border border-gray-200 rounded-xl focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none"
+            className="w-full px-4 py-3 text-lg font-bold border border-slate-200 rounded-xl focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none text-slate-900"
             placeholder="0.00"
           />
         </div>
