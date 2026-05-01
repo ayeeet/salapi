@@ -3,7 +3,7 @@ import { auth } from "@/lib/auth"
 import { createSavingsEntry, listSavings } from "@/lib/module-data"
 import { endOfDay, endOfMonth, endOfWeek, isWithinInterval, startOfDay, startOfMonth, startOfWeek } from "date-fns"
 
-function inRange(date: string, filter: string | null) {
+function inRange(date: string | Date, filter: string | null) {
   const now = new Date()
   if (filter === "today") {
     return isWithinInterval(new Date(date), { start: startOfDay(now), end: endOfDay(now) })
