@@ -9,11 +9,8 @@ const nextConfig: NextConfig = {
     // !! WARN !!
     ignoreBuildErrors: true,
   },
-  eslint: {
-    // Also ignore lint errors for faster builds in constrained environments
-    ignoreDuringBuilds: true,
-  }
 };
+
 
 
 
