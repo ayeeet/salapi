@@ -140,24 +140,24 @@ export async function getDashboardData() {
   const monthRange = resolveRange("month")
 
   const monthlyExpenses = user.expenses.filter(
-    (expense) =>
+    (expense: any) =>
       isWithinInterval(new Date(expense.date), {
         start: monthRange.start,
         end: monthRange.end,
       })
   )
   const todaysExpenses = user.expenses.filter(
-    (expense) =>
+    (expense: any) =>
       isWithinInterval(new Date(expense.date), {
         start: todayRange.start,
         end: todayRange.end,
       })
   )
 
-  const totalSpent = monthlyExpenses.reduce((sum, exp) => sum + exp.amount, 0)
-  const todaySpent = todaysExpenses.reduce((sum, exp) => sum + exp.amount, 0)
+  const totalSpent = monthlyExpenses.reduce((sum: number, exp: any) => sum + exp.amount, 0)
+  const todaySpent = todaysExpenses.reduce((sum: number, exp: any) => sum + exp.amount, 0)
 
-  const categoryTotals = monthlyExpenses.reduce((acc: Record<string, number>, exp) => {
+  const categoryTotals = monthlyExpenses.reduce((acc: Record<string, number>, exp: any) => {
     acc[exp.category] = (acc[exp.category] || 0) + exp.amount
     return acc
   }, {})
@@ -195,8 +195,8 @@ export async function getDashboardData() {
     summary: {
       totalSpent,
       todaySpent,
-      totalSavings: allSavings.reduce((sum, entry) => sum + Number(entry.amount), 0),
-      totalInvestments: allInvestments.reduce((sum, entry) => sum + Number(entry.amount), 0),
+      totalSavings: allSavings.reduce((sum: number, entry: any) => sum + Number(entry.amount), 0),
+      totalInvestments: allInvestments.reduce((sum: number, entry: any) => sum + Number(entry.amount), 0),
       percentageUsed: user.monthlyBudget > 0 ? Math.min((totalSpent / user.monthlyBudget) * 100, 100) : 0,
       highestCategory,
       insight,
@@ -215,11 +215,11 @@ export async function getExpenseTrackerData(range: ExpenseRange) {
   })
 
   const { start, end } = resolveRange(range)
-  const filteredExpenses = allExpenses.filter((expense) =>
+  const filteredExpenses = allExpenses.filter((expense: any) =>
     isWithinInterval(new Date(expense.date), { start, end })
   )
 
-  const categoryTotals = filteredExpenses.reduce<Record<string, number>>((acc, expense) => {
+  const categoryTotals = filteredExpenses.reduce<Record<string, number>>((acc, expense: any) => {
     acc[expense.category] = (acc[expense.category] || 0) + expense.amount
     return acc
   }, {})
@@ -227,7 +227,7 @@ export async function getExpenseTrackerData(range: ExpenseRange) {
   return {
     range,
     expenses: filteredExpenses,
-    total: filteredExpenses.reduce((sum, expense) => sum + expense.amount, 0),
+    total: filteredExpenses.reduce((sum: number, expense: any) => sum + expense.amount, 0),
     categoryTotals,
   }
 }
@@ -299,9 +299,9 @@ export async function getSavingsTrackerData(range: ExpenseRange) {
   return {
     range,
     entries: filteredEntries,
-    total: allEntries.reduce((sum, entry) => sum + Number(entry.amount), 0),
+    total: allEntries.reduce((sum: number, entry: any) => sum + Number(entry.amount), 0),
     monthlyTotal,
-    rangeTotal: filteredEntries.reduce((sum, entry) => sum + Number(entry.amount), 0),
+    rangeTotal: filteredEntries.reduce((sum: number, entry: any) => sum + Number(entry.amount), 0),
   }
 }
 
@@ -361,7 +361,7 @@ export async function getInvestmentTrackerData(range: ExpenseRange) {
     isWithinInterval(new Date(entry.date), { start, end })
   )
 
-  const breakdownByType = filteredEntries.reduce<Record<string, number>>((acc, entry) => {
+  const breakdownByType = filteredEntries.reduce<Record<string, number>>((acc, entry: any) => {
     const key = entry.type.toLowerCase()
     acc[key] = (acc[key] || 0) + Number(entry.amount)
     return acc
@@ -370,8 +370,8 @@ export async function getInvestmentTrackerData(range: ExpenseRange) {
   return {
     range,
     entries: filteredEntries,
-    total: allEntries.reduce((sum, entry) => sum + Number(entry.amount), 0),
-    rangeTotal: filteredEntries.reduce((sum, entry) => sum + Number(entry.amount), 0),
+    total: allEntries.reduce((sum: number, entry: any) => sum + Number(entry.amount), 0),
+    rangeTotal: filteredEntries.reduce((sum: number, entry: any) => sum + Number(entry.amount), 0),
     breakdownByType,
   }
 }
