@@ -1,0 +1,25 @@
+CREATE TABLE IF NOT EXISTS "savings" (
+  "id" TEXT NOT NULL PRIMARY KEY,
+  "amount" REAL NOT NULL,
+  "date" DATETIME NOT NULL,
+  "note" TEXT,
+  "userId" TEXT NOT NULL,
+  "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  "updatedAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  CONSTRAINT "savings_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User" ("id") ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS "investments" (
+  "id" TEXT NOT NULL PRIMARY KEY,
+  "type" TEXT NOT NULL,
+  "amount" REAL NOT NULL,
+  "date" DATETIME NOT NULL,
+  "note" TEXT,
+  "userId" TEXT NOT NULL,
+  "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  "updatedAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  CONSTRAINT "investments_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User" ("id") ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE INDEX IF NOT EXISTS "savings_userId_idx" ON "savings"("userId");
+CREATE INDEX IF NOT EXISTS "investments_userId_idx" ON "investments"("userId");

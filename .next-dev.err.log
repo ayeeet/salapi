@@ -1,0 +1,970 @@
+⨯ ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  [90m337 |[0m }
+  [90m338 |[0m
+[31m[1m>[0m [90m339 |[0m [36mexport[0m [36masync[0m [36mfunction[0m deleteInvestmentEntry(id: string) {
+  [90m    |[0m                       [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m340 |[0m   [36mconst[0m session = [36mawait[0m auth()
+  [90m341 |[0m   [36mif[0m (!session?.user?.id) [36mthrow[0m [36mnew[0m [33mError[0m([32m"Unauthorized"[0m)
+  [90m342 |[0m
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/dashboard/page.tsx
+
+
+⨯ ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  [90m337 |[0m }
+  [90m338 |[0m
+[31m[1m>[0m [90m339 |[0m [36mexport[0m [36masync[0m [36mfunction[0m deleteInvestmentEntry(id: string) {
+  [90m    |[0m                       [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m340 |[0m   [36mconst[0m session = [36mawait[0m auth()
+  [90m341 |[0m   [36mif[0m (!session?.user?.id) [36mthrow[0m [36mnew[0m [33mError[0m([32m"Unauthorized"[0m)
+  [90m342 |[0m
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/dashboard/page.tsx
+
+
+⨯ ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  [90m337 |[0m }
+  [90m338 |[0m
+[31m[1m>[0m [90m339 |[0m [36mexport[0m [36masync[0m [36mfunction[0m deleteInvestmentEntry(id: string) {
+  [90m    |[0m                       [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m340 |[0m   [36mconst[0m session = [36mawait[0m auth()
+  [90m341 |[0m   [36mif[0m (!session?.user?.id) [36mthrow[0m [36mnew[0m [33mError[0m([32m"Unauthorized"[0m)
+  [90m342 |[0m
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/dashboard/page.tsx
+
+
+⨯ ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  [90m337 |[0m }
+  [90m338 |[0m
+[31m[1m>[0m [90m339 |[0m [36mexport[0m [36masync[0m [36mfunction[0m deleteInvestmentEntry(id: string) {
+  [90m    |[0m                       [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m340 |[0m   [36mconst[0m session = [36mawait[0m auth()
+  [90m341 |[0m   [36mif[0m (!session?.user?.id) [36mthrow[0m [36mnew[0m [33mError[0m([32m"Unauthorized"[0m)
+  [90m342 |[0m
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/dashboard/page.tsx
+
+
+⨯ ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  [90m337 |[0m }
+  [90m338 |[0m
+[31m[1m>[0m [90m339 |[0m [36mexport[0m [36masync[0m [36mfunction[0m deleteInvestmentEntry(id: string) {
+  [90m    |[0m                       [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m340 |[0m   [36mconst[0m session = [36mawait[0m auth()
+  [90m341 |[0m   [36mif[0m (!session?.user?.id) [36mthrow[0m [36mnew[0m [33mError[0m([32m"Unauthorized"[0m)
+  [90m342 |[0m
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/dashboard/page.tsx
+
+
+[browser] Uncaught Error: ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  337 | }
+  338 |
+> 339 | export async function deleteInvestmentEntry(id: string) {
+      |                       ^^^^^^^^^^^^^^^^^^^^^
+  340 |   const session = await auth()
+  341 |   if (!session?.user?.id) throw new Error("Unauthorized")
+  342 |
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/dashboard/page.tsx
+
+
+    at <unknown> (Error: ./src/app/actions.ts:339:23)
+    at <unknown> (Error: (./src/app/actions.ts:339:23)
+[browser] Uncaught Error: ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  337 | }
+  338 |
+> 339 | export async function deleteInvestmentEntry(id: string) {
+      |                       ^^^^^^^^^^^^^^^^^^^^^
+  340 |   const session = await auth()
+  341 |   if (!session?.user?.id) throw new Error("Unauthorized")
+  342 |
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/dashboard/page.tsx
+
+
+    at <unknown> (Error: ./src/app/actions.ts:339:23)
+    at <unknown> (Error: (./src/app/actions.ts:339:23)
+⨯ ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  [90m337 |[0m }
+  [90m338 |[0m
+[31m[1m>[0m [90m339 |[0m [36mexport[0m [36masync[0m [36mfunction[0m deleteInvestmentEntry(id: string) {
+  [90m    |[0m                       [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m340 |[0m   [36mconst[0m session = [36mawait[0m auth()
+  [90m341 |[0m   [36mif[0m (!session?.user?.id) [36mthrow[0m [36mnew[0m [33mError[0m([32m"Unauthorized"[0m)
+  [90m342 |[0m
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/modules/savings/page.tsx
+
+
+⨯ ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  [90m337 |[0m }
+  [90m338 |[0m
+[31m[1m>[0m [90m339 |[0m [36mexport[0m [36masync[0m [36mfunction[0m deleteInvestmentEntry(id: string) {
+  [90m    |[0m                       [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m340 |[0m   [36mconst[0m session = [36mawait[0m auth()
+  [90m341 |[0m   [36mif[0m (!session?.user?.id) [36mthrow[0m [36mnew[0m [33mError[0m([32m"Unauthorized"[0m)
+  [90m342 |[0m
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/dashboard/page.tsx
+
+
+[browser] Uncaught Error: ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  337 | }
+  338 |
+> 339 | export async function deleteInvestmentEntry(id: string) {
+      |                       ^^^^^^^^^^^^^^^^^^^^^
+  340 |   const session = await auth()
+  341 |   if (!session?.user?.id) throw new Error("Unauthorized")
+  342 |
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/dashboard/page.tsx
+
+
+    at <unknown> (Error: ./src/app/actions.ts:339:23)
+    at <unknown> (Error: (./src/app/actions.ts:339:23)
+[browser] Uncaught Error: ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  337 | }
+  338 |
+> 339 | export async function deleteInvestmentEntry(id: string) {
+      |                       ^^^^^^^^^^^^^^^^^^^^^
+  340 |   const session = await auth()
+  341 |   if (!session?.user?.id) throw new Error("Unauthorized")
+  342 |
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/dashboard/page.tsx
+
+
+    at <unknown> (Error: ./src/app/actions.ts:339:23)
+    at <unknown> (Error: (./src/app/actions.ts:339:23)
+⨯ ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  [90m337 |[0m }
+  [90m338 |[0m
+[31m[1m>[0m [90m339 |[0m [36mexport[0m [36masync[0m [36mfunction[0m deleteInvestmentEntry(id: string) {
+  [90m    |[0m                       [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m340 |[0m   [36mconst[0m session = [36mawait[0m auth()
+  [90m341 |[0m   [36mif[0m (!session?.user?.id) [36mthrow[0m [36mnew[0m [33mError[0m([32m"Unauthorized"[0m)
+  [90m342 |[0m
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/modules/savings/page.tsx
+
+
+⨯ ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  [90m337 |[0m }
+  [90m338 |[0m
+[31m[1m>[0m [90m339 |[0m [36mexport[0m [36masync[0m [36mfunction[0m deleteInvestmentEntry(id: string) {
+  [90m    |[0m                       [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m340 |[0m   [36mconst[0m session = [36mawait[0m auth()
+  [90m341 |[0m   [36mif[0m (!session?.user?.id) [36mthrow[0m [36mnew[0m [33mError[0m([32m"Unauthorized"[0m)
+  [90m342 |[0m
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/dashboard/page.tsx
+
+
+[browser] Uncaught Error: ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  337 | }
+  338 |
+> 339 | export async function deleteInvestmentEntry(id: string) {
+      |                       ^^^^^^^^^^^^^^^^^^^^^
+  340 |   const session = await auth()
+  341 |   if (!session?.user?.id) throw new Error("Unauthorized")
+  342 |
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/dashboard/page.tsx
+
+
+    at <unknown> (Error: ./src/app/actions.ts:339:23)
+    at <unknown> (Error: (./src/app/actions.ts:339:23)
+[browser] Uncaught Error: ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  337 | }
+  338 |
+> 339 | export async function deleteInvestmentEntry(id: string) {
+      |                       ^^^^^^^^^^^^^^^^^^^^^
+  340 |   const session = await auth()
+  341 |   if (!session?.user?.id) throw new Error("Unauthorized")
+  342 |
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/dashboard/page.tsx
+
+
+    at <unknown> (Error: ./src/app/actions.ts:339:23)
+    at <unknown> (Error: (./src/app/actions.ts:339:23)
+⨯ ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  [90m337 |[0m }
+  [90m338 |[0m
+[31m[1m>[0m [90m339 |[0m [36mexport[0m [36masync[0m [36mfunction[0m deleteInvestmentEntry(id: string) {
+  [90m    |[0m                       [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m340 |[0m   [36mconst[0m session = [36mawait[0m auth()
+  [90m341 |[0m   [36mif[0m (!session?.user?.id) [36mthrow[0m [36mnew[0m [33mError[0m([32m"Unauthorized"[0m)
+  [90m342 |[0m
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/modules/savings/page.tsx
+
+
+⨯ ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  [90m337 |[0m }
+  [90m338 |[0m
+[31m[1m>[0m [90m339 |[0m [36mexport[0m [36masync[0m [36mfunction[0m deleteInvestmentEntry(id: string) {
+  [90m    |[0m                       [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m340 |[0m   [36mconst[0m session = [36mawait[0m auth()
+  [90m341 |[0m   [36mif[0m (!session?.user?.id) [36mthrow[0m [36mnew[0m [33mError[0m([32m"Unauthorized"[0m)
+  [90m342 |[0m
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/dashboard/page.tsx
+
+
+[browser] Uncaught Error: ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  337 | }
+  338 |
+> 339 | export async function deleteInvestmentEntry(id: string) {
+      |                       ^^^^^^^^^^^^^^^^^^^^^
+  340 |   const session = await auth()
+  341 |   if (!session?.user?.id) throw new Error("Unauthorized")
+  342 |
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/dashboard/page.tsx
+
+
+    at <unknown> (Error: ./src/app/actions.ts:339:23)
+    at <unknown> (Error: (./src/app/actions.ts:339:23)
+[browser] Uncaught Error: ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  337 | }
+  338 |
+> 339 | export async function deleteInvestmentEntry(id: string) {
+      |                       ^^^^^^^^^^^^^^^^^^^^^
+  340 |   const session = await auth()
+  341 |   if (!session?.user?.id) throw new Error("Unauthorized")
+  342 |
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/dashboard/page.tsx
+
+
+    at <unknown> (Error: ./src/app/actions.ts:339:23)
+    at <unknown> (Error: (./src/app/actions.ts:339:23)
+⨯ ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  [90m337 |[0m }
+  [90m338 |[0m
+[31m[1m>[0m [90m339 |[0m [36mexport[0m [36masync[0m [36mfunction[0m deleteInvestmentEntry(id: string) {
+  [90m    |[0m                       [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m340 |[0m   [36mconst[0m session = [36mawait[0m auth()
+  [90m341 |[0m   [36mif[0m (!session?.user?.id) [36mthrow[0m [36mnew[0m [33mError[0m([32m"Unauthorized"[0m)
+  [90m342 |[0m
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/dashboard/page.tsx
+
+
+⨯ ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  [90m337 |[0m }
+  [90m338 |[0m
+[31m[1m>[0m [90m339 |[0m [36mexport[0m [36masync[0m [36mfunction[0m deleteInvestmentEntry(id: string) {
+  [90m    |[0m                       [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m340 |[0m   [36mconst[0m session = [36mawait[0m auth()
+  [90m341 |[0m   [36mif[0m (!session?.user?.id) [36mthrow[0m [36mnew[0m [33mError[0m([32m"Unauthorized"[0m)
+  [90m342 |[0m
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/modules/savings/page.tsx
+
+
+[browser] Uncaught Error: ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  337 | }
+  338 |
+> 339 | export async function deleteInvestmentEntry(id: string) {
+      |                       ^^^^^^^^^^^^^^^^^^^^^
+  340 |   const session = await auth()
+  341 |   if (!session?.user?.id) throw new Error("Unauthorized")
+  342 |
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/dashboard/page.tsx
+
+
+    at <unknown> (Error: ./src/app/actions.ts:339:23)
+    at <unknown> (Error: (./src/app/actions.ts:339:23)
+[browser] Uncaught Error: ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  337 | }
+  338 |
+> 339 | export async function deleteInvestmentEntry(id: string) {
+      |                       ^^^^^^^^^^^^^^^^^^^^^
+  340 |   const session = await auth()
+  341 |   if (!session?.user?.id) throw new Error("Unauthorized")
+  342 |
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/dashboard/page.tsx
+
+
+    at <unknown> (Error: ./src/app/actions.ts:339:23)
+    at <unknown> (Error: (./src/app/actions.ts:339:23)
+⨯ ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  [90m337 |[0m }
+  [90m338 |[0m
+[31m[1m>[0m [90m339 |[0m [36mexport[0m [36masync[0m [36mfunction[0m deleteInvestmentEntry(id: string) {
+  [90m    |[0m                       [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m340 |[0m   [36mconst[0m session = [36mawait[0m auth()
+  [90m341 |[0m   [36mif[0m (!session?.user?.id) [36mthrow[0m [36mnew[0m [33mError[0m([32m"Unauthorized"[0m)
+  [90m342 |[0m
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/modules/savings/page.tsx
+
+
+⨯ ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  [90m337 |[0m }
+  [90m338 |[0m
+[31m[1m>[0m [90m339 |[0m [36mexport[0m [36masync[0m [36mfunction[0m deleteInvestmentEntry(id: string) {
+  [90m    |[0m                       [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m340 |[0m   [36mconst[0m session = [36mawait[0m auth()
+  [90m341 |[0m   [36mif[0m (!session?.user?.id) [36mthrow[0m [36mnew[0m [33mError[0m([32m"Unauthorized"[0m)
+  [90m342 |[0m
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/dashboard/page.tsx
+
+
+[browser] Uncaught Error: ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  337 | }
+  338 |
+> 339 | export async function deleteInvestmentEntry(id: string) {
+      |                       ^^^^^^^^^^^^^^^^^^^^^
+  340 |   const session = await auth()
+  341 |   if (!session?.user?.id) throw new Error("Unauthorized")
+  342 |
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/dashboard/page.tsx
+
+
+    at <unknown> (Error: ./src/app/actions.ts:339:23)
+    at <unknown> (Error: (./src/app/actions.ts:339:23)
+[browser] Uncaught Error: ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  337 | }
+  338 |
+> 339 | export async function deleteInvestmentEntry(id: string) {
+      |                       ^^^^^^^^^^^^^^^^^^^^^
+  340 |   const session = await auth()
+  341 |   if (!session?.user?.id) throw new Error("Unauthorized")
+  342 |
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/dashboard/page.tsx
+
+
+    at <unknown> (Error: ./src/app/actions.ts:339:23)
+    at <unknown> (Error: (./src/app/actions.ts:339:23)
+⨯ ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  [90m337 |[0m }
+  [90m338 |[0m
+[31m[1m>[0m [90m339 |[0m [36mexport[0m [36masync[0m [36mfunction[0m deleteInvestmentEntry(id: string) {
+  [90m    |[0m                       [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m340 |[0m   [36mconst[0m session = [36mawait[0m auth()
+  [90m341 |[0m   [36mif[0m (!session?.user?.id) [36mthrow[0m [36mnew[0m [33mError[0m([32m"Unauthorized"[0m)
+  [90m342 |[0m
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/modules/savings/page.tsx
+
+
+⨯ ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  [90m337 |[0m }
+  [90m338 |[0m
+[31m[1m>[0m [90m339 |[0m [36mexport[0m [36masync[0m [36mfunction[0m deleteInvestmentEntry(id: string) {
+  [90m    |[0m                       [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m340 |[0m   [36mconst[0m session = [36mawait[0m auth()
+  [90m341 |[0m   [36mif[0m (!session?.user?.id) [36mthrow[0m [36mnew[0m [33mError[0m([32m"Unauthorized"[0m)
+  [90m342 |[0m
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/dashboard/page.tsx
+
+
+[browser] Uncaught Error: ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  337 | }
+  338 |
+> 339 | export async function deleteInvestmentEntry(id: string) {
+      |                       ^^^^^^^^^^^^^^^^^^^^^
+  340 |   const session = await auth()
+  341 |   if (!session?.user?.id) throw new Error("Unauthorized")
+  342 |
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/dashboard/page.tsx
+
+
+    at <unknown> (Error: ./src/app/actions.ts:339:23)
+    at <unknown> (Error: (./src/app/actions.ts:339:23)
+[browser] Uncaught Error: ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  337 | }
+  338 |
+> 339 | export async function deleteInvestmentEntry(id: string) {
+      |                       ^^^^^^^^^^^^^^^^^^^^^
+  340 |   const session = await auth()
+  341 |   if (!session?.user?.id) throw new Error("Unauthorized")
+  342 |
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/dashboard/page.tsx
+
+
+    at <unknown> (Error: ./src/app/actions.ts:339:23)
+    at <unknown> (Error: (./src/app/actions.ts:339:23)
+⨯ ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  [90m337 |[0m }
+  [90m338 |[0m
+[31m[1m>[0m [90m339 |[0m [36mexport[0m [36masync[0m [36mfunction[0m deleteInvestmentEntry(id: string) {
+  [90m    |[0m                       [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m340 |[0m   [36mconst[0m session = [36mawait[0m auth()
+  [90m341 |[0m   [36mif[0m (!session?.user?.id) [36mthrow[0m [36mnew[0m [33mError[0m([32m"Unauthorized"[0m)
+  [90m342 |[0m
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/modules/savings/page.tsx
+
+
+⨯ ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  [90m337 |[0m }
+  [90m338 |[0m
+[31m[1m>[0m [90m339 |[0m [36mexport[0m [36masync[0m [36mfunction[0m deleteInvestmentEntry(id: string) {
+  [90m    |[0m                       [31m[1m^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m340 |[0m   [36mconst[0m session = [36mawait[0m auth()
+  [90m341 |[0m   [36mif[0m (!session?.user?.id) [36mthrow[0m [36mnew[0m [33mError[0m([32m"Unauthorized"[0m)
+  [90m342 |[0m
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/dashboard/page.tsx
+
+
+[browser] Uncaught Error: ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  337 | }
+  338 |
+> 339 | export async function deleteInvestmentEntry(id: string) {
+      |                       ^^^^^^^^^^^^^^^^^^^^^
+  340 |   const session = await auth()
+  341 |   if (!session?.user?.id) throw new Error("Unauthorized")
+  342 |
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/dashboard/page.tsx
+
+
+    at <unknown> (Error: ./src/app/actions.ts:339:23)
+    at <unknown> (Error: (./src/app/actions.ts:339:23)
+[browser] Uncaught Error: ./src/app/actions.ts:339:23
+the name `deleteInvestmentEntry` is defined multiple times
+  337 | }
+  338 |
+> 339 | export async function deleteInvestmentEntry(id: string) {
+      |                       ^^^^^^^^^^^^^^^^^^^^^
+  340 |   const session = await auth()
+  341 |   if (!session?.user?.id) throw new Error("Unauthorized")
+  342 |
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/app/actions.ts
+    ./src/app/dashboard/page.tsx
+
+
+    at <unknown> (Error: ./src/app/actions.ts:339:23)
+    at <unknown> (Error: (./src/app/actions.ts:339:23)
+⨯ Error [PrismaClientKnownRequestError]: 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `N/A`. Message: `Conversion failed: input contains invalid characters`
+    at async getInvestmentTrackerData (src\app\actions.ts:353:22)
+    at async InvestmentsModulePage (src\app\modules\investments\page.tsx:27:16)
+  351 |   if (!session?.user?.id) return null
+  352 |
+> 353 |   const allEntries = await listInvestments(session.user.id)
+      |                      ^
+  354 |   const { start, end } = resolveRange(range)
+  355 |   const filteredEntries = allEntries.filter((entry) =>
+  356 |     isWithinInterval(new Date(entry.date), { start, end }) {
+  code: 'P2010',
+  meta: {
+    code: 'N/A',
+    message: 'Conversion failed: input contains invalid characters'
+  },
+  clientVersion: '6.19.3',
+  digest: '72195462'
+}
+[browser] Uncaught PrismaClientKnownRequestError: 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `N/A`. Message: `Conversion failed: input contains invalid characters`
+    at getInvestmentTrackerData (src\app\actions.ts:353:22)
+    at InvestmentsModulePage (src\app\modules\investments\page.tsx:27:16)
+  351 |   if (!session?.user?.id) return null
+  352 |
+> 353 |   const allEntries = await listInvestments(session.user.id)
+      |                      ^
+  354 |   const { start, end } = resolveRange(range)
+  355 |   const filteredEntries = allEntries.filter((entry) =>
+  356 |     isWithinInterval(new Date(entry.date), { start, end })
+⨯ Error [PrismaClientKnownRequestError]: 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `N/A`. Message: `Conversion failed: input contains invalid characters`
+    at async getInvestmentTrackerData (src\app\actions.ts:353:22)
+    at async InvestmentsModulePage (src\app\modules\investments\page.tsx:27:16)
+  351 |   if (!session?.user?.id) return null
+  352 |
+> 353 |   const allEntries = await listInvestments(session.user.id)
+      |                      ^
+  354 |   const { start, end } = resolveRange(range)
+  355 |   const filteredEntries = allEntries.filter((entry) =>
+  356 |     isWithinInterval(new Date(entry.date), { start, end }) {
+  code: 'P2010',
+  meta: {
+    code: 'N/A',
+    message: 'Conversion failed: input contains invalid characters'
+  },
+  clientVersion: '6.19.3',
+  digest: '72195462'
+}
+⨯ Error [PrismaClientKnownRequestError]: 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `N/A`. Message: `Conversion failed: input contains invalid characters`
+    at async getInvestmentTrackerData (src\app\actions.ts:353:22)
+    at async InvestmentsModulePage (src\app\modules\investments\page.tsx:27:16)
+  351 |   if (!session?.user?.id) return null
+  352 |
+> 353 |   const allEntries = await listInvestments(session.user.id)
+      |                      ^
+  354 |   const { start, end } = resolveRange(range)
+  355 |   const filteredEntries = allEntries.filter((entry) =>
+  356 |     isWithinInterval(new Date(entry.date), { start, end }) {
+  code: 'P2010',
+  meta: {
+    code: 'N/A',
+    message: 'Conversion failed: input contains invalid characters'
+  },
+  clientVersion: '6.19.3',
+  digest: '72195462'
+}
+⨯ Error [PrismaClientKnownRequestError]: 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `N/A`. Message: `Conversion failed: input contains invalid characters`
+    at async getInvestmentTrackerData (src\app\actions.ts:353:22)
+    at async InvestmentsModulePage (src\app\modules\investments\page.tsx:27:16)
+  351 |   if (!session?.user?.id) return null
+  352 |
+> 353 |   const allEntries = await listInvestments(session.user.id)
+      |                      ^
+  354 |   const { start, end } = resolveRange(range)
+  355 |   const filteredEntries = allEntries.filter((entry) =>
+  356 |     isWithinInterval(new Date(entry.date), { start, end }) {
+  code: 'P2010',
+  meta: {
+    code: 'N/A',
+    message: 'Conversion failed: input contains invalid characters'
+  },
+  clientVersion: '6.19.3',
+  digest: '72195462'
+}
+[browser] Uncaught PrismaClientKnownRequestError: 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `N/A`. Message: `Conversion failed: input contains invalid characters`
+    at getInvestmentTrackerData (src\app\actions.ts:353:22)
+    at InvestmentsModulePage (src\app\modules\investments\page.tsx:27:16)
+  351 |   if (!session?.user?.id) return null
+  352 |
+> 353 |   const allEntries = await listInvestments(session.user.id)
+      |                      ^
+  354 |   const { start, end } = resolveRange(range)
+  355 |   const filteredEntries = allEntries.filter((entry) =>
+  356 |     isWithinInterval(new Date(entry.date), { start, end })
+⨯ Error [PrismaClientKnownRequestError]: 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `N/A`. Message: `Conversion failed: input contains invalid characters`
+    at async getInvestmentTrackerData (src\app\actions.ts:353:22)
+    at async InvestmentsModulePage (src\app\modules\investments\page.tsx:27:16)
+  351 |   if (!session?.user?.id) return null
+  352 |
+> 353 |   const allEntries = await listInvestments(session.user.id)
+      |                      ^
+  354 |   const { start, end } = resolveRange(range)
+  355 |   const filteredEntries = allEntries.filter((entry) =>
+  356 |     isWithinInterval(new Date(entry.date), { start, end }) {
+  code: 'P2010',
+  meta: {
+    code: 'N/A',
+    message: 'Conversion failed: input contains invalid characters'
+  },
+  clientVersion: '6.19.3',
+  digest: '72195462'
+}
+⨯ Error [PrismaClientKnownRequestError]: 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `N/A`. Message: `Conversion failed: input contains invalid characters`
+    at async getDashboardData (src\app\actions.ts:178:40)
+    at async DashboardPage (src\app\dashboard\page.tsx:9:16)
+  176 |   }
+  177 |
+> 178 |   const [allSavings, allInvestments] = await Promise.all([
+      |                                        ^
+  179 |     listSavings(session.user.id),
+  180 |     listInvestments(session.user.id),
+  181 |   ]) {
+  code: 'P2010',
+  meta: {
+    code: 'N/A',
+    message: 'Conversion failed: input contains invalid characters'
+  },
+  clientVersion: '6.19.3',
+  digest: '4191311463'
+}
+⨯ Error [PrismaClientKnownRequestError]: 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `N/A`. Message: `Conversion failed: input contains invalid characters`
+    at async getDashboardData (src\app\actions.ts:178:40)
+    at async DashboardPage (src\app\dashboard\page.tsx:9:16)
+  176 |   }
+  177 |
+> 178 |   const [allSavings, allInvestments] = await Promise.all([
+      |                                        ^
+  179 |     listSavings(session.user.id),
+  180 |     listInvestments(session.user.id),
+  181 |   ]) {
+  code: 'P2010',
+  meta: {
+    code: 'N/A',
+    message: 'Conversion failed: input contains invalid characters'
+  },
+  clientVersion: '6.19.3',
+  digest: '4191311463'
+}
+[browser] Uncaught PrismaClientKnownRequestError: 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `N/A`. Message: `Conversion failed: input contains invalid characters`
+    at Promise.all (<anonymous>:1:20)
+    at getDashboardData (src\app\actions.ts:178:40)
+    at DashboardPage (src\app\dashboard\page.tsx:9:16)
+  176 |   }
+  177 |
+> 178 |   const [allSavings, allInvestments] = await Promise.all([
+      |                                        ^
+  179 |     listSavings(session.user.id),
+  180 |     listInvestments(session.user.id),
+  181 |   ])
+⨯ Error [PrismaClientKnownRequestError]: 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `N/A`. Message: `Conversion failed: input contains invalid characters`
+    at async getDashboardData (src\app\actions.ts:178:40)
+    at async DashboardPage (src\app\dashboard\page.tsx:9:16)
+  176 |   }
+  177 |
+> 178 |   const [allSavings, allInvestments] = await Promise.all([
+      |                                        ^
+  179 |     listSavings(session.user.id),
+  180 |     listInvestments(session.user.id),
+  181 |   ]) {
+  code: 'P2010',
+  meta: {
+    code: 'N/A',
+    message: 'Conversion failed: input contains invalid characters'
+  },
+  clientVersion: '6.19.3',
+  digest: '4191311463'
+}
+[browser] Uncaught PrismaClientKnownRequestError: 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `N/A`. Message: `Conversion failed: input contains invalid characters`
+    at Promise.all (<anonymous>:1:20)
+    at getDashboardData (src\app\actions.ts:178:40)
+    at DashboardPage (src\app\dashboard\page.tsx:9:16)
+  176 |   }
+  177 |
+> 178 |   const [allSavings, allInvestments] = await Promise.all([
+      |                                        ^
+  179 |     listSavings(session.user.id),
+  180 |     listInvestments(session.user.id),
+  181 |   ])
+⨯ Error [PrismaClientKnownRequestError]: 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `N/A`. Message: `Conversion failed: input contains invalid characters`
+    at async getDashboardData (src\app\actions.ts:178:40)
+    at async DashboardPage (src\app\dashboard\page.tsx:9:16)
+  176 |   }
+  177 |
+> 178 |   const [allSavings, allInvestments] = await Promise.all([
+      |                                        ^
+  179 |     listSavings(session.user.id),
+  180 |     listInvestments(session.user.id),
+  181 |   ]) {
+  code: 'P2010',
+  meta: {
+    code: 'N/A',
+    message: 'Conversion failed: input contains invalid characters'
+  },
+  clientVersion: '6.19.3',
+  digest: '4191311463'
+}
+[browser] Uncaught PrismaClientKnownRequestError: 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `N/A`. Message: `Conversion failed: input contains invalid characters`
+    at Promise.all (<anonymous>:1:20)
+    at getDashboardData (src\app\actions.ts:178:40)
+    at DashboardPage (src\app\dashboard\page.tsx:9:16)
+  176 |   }
+  177 |
+> 178 |   const [allSavings, allInvestments] = await Promise.all([
+      |                                        ^
+  179 |     listSavings(session.user.id),
+  180 |     listInvestments(session.user.id),
+  181 |   ])
+⨯ Error [PrismaClientKnownRequestError]: 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `N/A`. Message: `Conversion failed: input contains invalid characters`
+    at async getDashboardData (src\app\actions.ts:178:40)
+    at async DashboardPage (src\app\dashboard\page.tsx:9:16)
+  176 |   }
+  177 |
+> 178 |   const [allSavings, allInvestments] = await Promise.all([
+      |                                        ^
+  179 |     listSavings(session.user.id),
+  180 |     listInvestments(session.user.id),
+  181 |   ]) {
+  code: 'P2010',
+  meta: {
+    code: 'N/A',
+    message: 'Conversion failed: input contains invalid characters'
+  },
+  clientVersion: '6.19.3',
+  digest: '4191311463'
+}
+[browser] Uncaught PrismaClientKnownRequestError: 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `N/A`. Message: `Conversion failed: input contains invalid characters`
+    at Promise.all (<anonymous>:1:20)
+    at getDashboardData (src\app\actions.ts:178:40)
+    at DashboardPage (src\app\dashboard\page.tsx:9:16)
+  176 |   }
+  177 |
+> 178 |   const [allSavings, allInvestments] = await Promise.all([
+      |                                        ^
+  179 |     listSavings(session.user.id),
+  180 |     listInvestments(session.user.id),
+  181 |   ])
